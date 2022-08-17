@@ -5,10 +5,9 @@ int movinspeed = 100;
 int mode = 1 ;
 Adeept_Distance Dist;
 /***********************************************************
-File   : TDTP2_Stand_Up
 Subject: Stand Up ADEEPT Hexapode 
-Author : Doc. Ing. Med Radhouan HACHICHA
-E-mail : radhouan.mail@gmail.com*/
+Author : Mohamed Benothmen 
+E-mail : benothmenmohamed090@gmail.com*/
 #include <Adeept_PWMPCA9685.h>
 Adeept_PWMPCA9685 pwm0 = Adeept_PWMPCA9685(0x40);                //1+A5 A4 A3 A2 A1 A0+RW, RW is Read and Write
 Adeept_PWMPCA9685 pwm1 = Adeept_PWMPCA9685(0x41);                //1+A5 A4 A3 A2 A1 A0+RW, RW is Read and Write
